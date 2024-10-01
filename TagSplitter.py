@@ -25,13 +25,16 @@ def save_to_file(output_string, file_path):
 
 def main():
     # Set up argument parser to accept input and output file paths
-    parser = argparse.ArgumentParser(description="Process words from input file and save unique, sorted words to output file.")
+    parser = argparse.ArgumentParser(
+        description="Process words from input file and save unique, sorted words to output file.")
     
     # Input file path argument
-    parser.add_argument('input_file', type=str, help='Path to the input file containing words separated by commas')
+    parser.add_argument(
+        'input_file', type=str, help='Path to the input file containing words separated by commas')
     
     # Output file path argument
-    parser.add_argument('output_file', type=str, help='Path to save the processed, comma-separated words')
+    parser.add_argument(
+        'output_file', type=str, help='Path to save the processed, comma-separated words')
     
     # Parse the arguments
     args = parser.parse_args()
