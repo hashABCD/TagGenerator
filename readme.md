@@ -1,4 +1,4 @@
-# TagSplitter 
+# Tag Generator
 A tool to convert comma separated words from a text file <br>to comma separated unique words in another text or csv file. 
 
 ### Requirements
